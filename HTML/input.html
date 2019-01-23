@@ -8,13 +8,47 @@
         <h1>Sign In</h1>
         <form method="GET" >
             <label>Username</label>
-            <input type="text" placeholder="username" name="username">
+            <input type="text" placeholder="username" name="username" required>
             <br>
             <label>Password</label>
-            <input type="password" placeholder="password" name="password">
+            <input type="password" placeholder="password" name="password" required>
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="email" name="email" required>
             <br>
             <input type="file">
             <br>
+
+            <p>Do you prefer cats or dogs?</p>
+            <label>Cats</label>
+            <input type="radio" name="Pets" value="Cats">
+            <br>
+            <label>Dogs</label>
+            <input type="radio" name="Pets" value="Dogs">
+            <br>
+
+
+            <select name="color">
+                <option>Red</option>
+
+                <option>Green</option>
+
+                <option>Blue</option>
+
+                <option>Yellow</option>
+            </select>
+
+
+
+            <input type="checkbox">
+
+
+
+
+
+
+
+
             <input type="submit">
 
 
