@@ -9,3 +9,6 @@ function doSomething(){
 
 
 doSomething();
+
+
+doSomething();
