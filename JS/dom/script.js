@@ -1,24 +1,11 @@
-var h1 = document.querySelector('h1') ;
+var id = document.querySelectorAll("p");
+console.log(id[0]);
 
-h1.style.color = "pink" ;
+id = document.getElementById("first")
+console.log(id);
 
-var timeOut = setInterval(changeColor , 2000 ) ;
+id = document.getElementsByClassName("special");
+console.log(id);
 
-var isBlue = false ;
-
-function changeColor(){
-
-    var background = document.body ;
-
-    if(isBlue){
-        isBlue = false ;
-        background.style.backgroundColor = "green" ;
-    }
-    else{
-        isBlue = true ;
-        background.style.backgroundColor = "blue" ;
-    }
-
-    console.log("color changed");
-}
-
+id = document.querySelector("p")
+console.log(id);
